@@ -27,3 +27,4 @@ print(type(e))
 f=True
 print(f)
 print(type(f))
+print(8>10)
