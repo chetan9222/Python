@@ -1,4 +1,4 @@
-########V33######## Tuple Type
+########V33 and v34######## Tuple Type
 
 # It is just like List data Structure. But once we create tuple element, we cannot modify it (Immutable).
 # we can not insert any element in the tuple once it create.
@@ -22,12 +22,25 @@ print(tpl1)
 print(tpl1*3)
 print(tpl1.count(20)) #  How much times 20 number occurse in tuple.
 
-print(tpl1.index('xyz'))
+print(tpl1.index('xyz')) # find out index number
 
+#######v35######## convert list to tuple by tuple function
 
+# list is define in square  bracket [] and tuple define in simple bracket ()
 
+lst=[65,37,'xyz']  # list
+print(type(lst))
 
+tpl2=tuple(lst)
+print(type(tpl2))
+print(tpl2)
 
+#######v36######## List V/S tuple
+#list - Define in square  bracket []
+#tuple - Define in simple bracket ()
 
+# list - Mutable (we can add elements or modify the list )
+# tuple - immutable ( once we create tuple we can not add or modify the elements )
 
-
+# list - we canot use list as a key to the Dictionary
+# tuple - we can use tuple as a key to the Dictionary because Dictionary keys is must be immutable this is the rule
