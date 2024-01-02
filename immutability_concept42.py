@@ -25,5 +25,5 @@ e='chetan'
 f='chetan'
 print(e is f) # It will print "True" because we check memory location here.
 # To find out further memory location details, we can use "id" function.
-print(id(e))git
+print(id(e))
 print(id(f))
